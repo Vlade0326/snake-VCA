@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.game.container{
+    text-align: center;
+}
+
+
+
+#gameArea {
+    width: 400px;
+    height: 400px;
+    background-color: #000;
+    position: relative;
+}
+
+.snake {
+    width: 20px;
+    height: 20px;
+    background-color: #841fe3;
+    position: absolute;
+}
+
+.food {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#score {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.game-over {
+    color: red;
+    font-size: 24;
+    display: none;
+}
